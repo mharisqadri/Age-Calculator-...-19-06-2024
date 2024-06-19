@@ -12,7 +12,7 @@ function calculateAge(){
 let dob = new Date(`${year}-${month}-${date}`);
 let ageInMS = now-dob;
 let ageINYear = Math.floor(ageInMS/31556952000);
-agePrint.innerHTML= `<p>Your Age is:${ageINYear}</p>`
+agePrint.innerHTML= `<p>Your Age is : ${ageINYear}</p>`
 }
 
 function reset(){
